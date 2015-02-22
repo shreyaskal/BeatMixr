@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>63D7E8F8-00BE-4A4B-A0C0-C180BDF42674</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Beats Mixr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>18ABD5CAE22BCD1B7795B118D6659E27D9C4D722</key>
+		<string>https://github.com/shreyaskal/KnapsackApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Beats Mixr/Beats Mixr.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>18ABD5CAE22BCD1B7795B118D6659E27D9C4D722</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shreyaskal/KnapsackApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>18ABD5CAE22BCD1B7795B118D6659E27D9C4D722</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>18ABD5CAE22BCD1B7795B118D6659E27D9C4D722</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Apps</string>
+		</dict>
+	</array>
+</dict>
+</plist>

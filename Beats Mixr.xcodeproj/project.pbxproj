@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80059E351A9A50DC0076E1CF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F140D1A988DAC00310EC7 /* Accelerate.framework */; };
+		80059E361A9A50DC0076E1CF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F140E1A988DAC00310EC7 /* AddressBook.framework */; };
+		80059E371A9A50DC0076E1CF /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F140F1A988DAC00310EC7 /* AddressBookUI.framework */; };
+		80059E381A9A50DC0076E1CF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14101A988DAC00310EC7 /* AssetsLibrary.framework */; };
+		80059E391A9A50DC0076E1CF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14111A988DAC00310EC7 /* AudioToolbox.framework */; };
+		80059E3A1A9A50DC0076E1CF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14121A988DAC00310EC7 /* AVFoundation.framework */; };
+		80059E3B1A9A50DC0076E1CF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14131A988DAC00310EC7 /* CFNetwork.framework */; };
+		80059E3C1A9A50DC0076E1CF /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80373CAF1A98D181001B9C5A /* CoreAudio.framework */; };
+		80059E3D1A9A50DC0076E1CF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14141A988DAC00310EC7 /* CoreBluetooth.framework */; };
+		80059E3E1A9A50DC0076E1CF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14151A988DAC00310EC7 /* CoreFoundation.framework */; };
+		80059E3F1A9A50DC0076E1CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14161A988DAC00310EC7 /* CoreGraphics.framework */; };
+		80059E401A9A50DC0076E1CF /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14171A988DAC00310EC7 /* CoreImage.framework */; };
+		80059E411A9A50DC0076E1CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14181A988DAC00310EC7 /* CoreLocation.framework */; };
+		80059E421A9A50DC0076E1CF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14191A988DAC00310EC7 /* CoreMedia.framework */; };
+		80059E431A9A50DC0076E1CF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141A1A988DAC00310EC7 /* CoreTelephony.framework */; };
+		80059E441A9A50DC0076E1CF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141B1A988DAC00310EC7 /* CoreText.framework */; };
+		80059E451A9A50DC0076E1CF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141C1A988DAC00310EC7 /* CoreVideo.framework */; };
+		80059E461A9A50DC0076E1CF /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141D1A988DAC00310EC7 /* EventKit.framework */; };
+		80059E471A9A50DC0076E1CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141E1A988DAC00310EC7 /* Foundation.framework */; };
+		80059E481A9A50DC0076E1CF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141F1A988DAC00310EC7 /* ImageIO.framework */; };
+		80059E491A9A50DC0076E1CF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14201A988DAC00310EC7 /* MapKit.framework */; };
+		80059E4A1A9A50DC0076E1CF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14211A988DAC00310EC7 /* MediaPlayer.framework */; };
+		80059E4B1A9A50DC0076E1CF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14231A988DAC00310EC7 /* MobileCoreServices.framework */; };
+		80059E4C1A9A50DC0076E1CF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14241A988DAC00310EC7 /* OpenGLES.framework */; };
+		80059E4D1A9A50DC0076E1CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14251A988DAC00310EC7 /* QuartzCore.framework */; };
+		80059E4E1A9A50DC0076E1CF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14261A988DAC00310EC7 /* Security.framework */; };
+		80059E4F1A9A50DC0076E1CF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14271A988DAC00310EC7 /* StoreKit.framework */; };
+		80059E501A9A50DC0076E1CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14281A988DAC00310EC7 /* SystemConfiguration.framework */; };
+		80059E511A9A50DC0076E1CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14291A988DAC00310EC7 /* UIKit.framework */; };
+		80059E521A9A51120076E1CF /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14051A988D3A00310EC7 /* libc++.dylib */; };
+		80059E531A9A51120076E1CF /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14061A988D3A00310EC7 /* libstdc++.6.dylib */; };
+		80059E541A9A51120076E1CF /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14071A988D3A00310EC7 /* libxml2.2.dylib */; };
+		80059E551A9A51120076E1CF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14081A988D3A00310EC7 /* libz.dylib */; };
+		80059E561A9A512E0076E1CF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801AB4831A998477001F97B2 /* Bolts.framework */; };
+		80059E571A9A512E0076E1CF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801AB4841A998477001F97B2 /* Parse.framework */; };
+		80059E581A9A512E0076E1CF /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801AB4851A998477001F97B2 /* ParseCrashReporting.framework */; };
+		80059E591A9A512E0076E1CF /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801AB4861A998477001F97B2 /* ParseFacebookUtils.framework */; };
+		80059E5A1A9A512E0076E1CF /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801AB4871A998477001F97B2 /* ParseUI.framework */; };
+		80059E5C1A9A51530076E1CF /* MoxtraSDKResources.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 80059E5B1A9A51520076E1CF /* MoxtraSDKResources.bundle */; };
+		80059E621A9A522F0076E1CF /* MoxtraConversationResources.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 80059E5F1A9A51FF0076E1CF /* MoxtraConversationResources.bundle */; };
+		80059E631A9A547B0076E1CF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14221A988DAC00310EC7 /* MessageUI.framework */; };
+		801AB4881A998477001F97B2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801AB4831A998477001F97B2 /* Bolts.framework */; };
+		801AB4891A998477001F97B2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801AB4841A998477001F97B2 /* Parse.framework */; };
+		801AB48A1A998477001F97B2 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801AB4851A998477001F97B2 /* ParseCrashReporting.framework */; };
+		801AB48B1A998477001F97B2 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801AB4861A998477001F97B2 /* ParseFacebookUtils.framework */; };
+		801AB48C1A998477001F97B2 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801AB4871A998477001F97B2 /* ParseUI.framework */; };
+		801AB48E1A9984D8001F97B2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 801AB48D1A9984D8001F97B2 /* libsqlite3.dylib */; };
+		80208FF31A98E14600BB15AF /* AudioEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80208FF21A98E14600BB15AF /* AudioEdit.swift */; };
+		80373CB11A98D181001B9C5A /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80373CAF1A98D181001B9C5A /* CoreAudio.framework */; };
+		803F13A21A987FF000310EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F13A11A987FF000310EC7 /* AppDelegate.swift */; };
+		803F13A41A987FF000310EC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F13A31A987FF000310EC7 /* ViewController.swift */; };
+		803F13A71A987FF000310EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803F13A51A987FF000310EC7 /* Main.storyboard */; };
+		803F13AC1A987FF000310EC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803F13AA1A987FF000310EC7 /* LaunchScreen.xib */; };
+		803F13B81A987FF000310EC7 /* Beats_MixrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F13B71A987FF000310EC7 /* Beats_MixrTests.swift */; };
+		803F14091A988D3A00310EC7 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14051A988D3A00310EC7 /* libc++.dylib */; };
+		803F140A1A988D3A00310EC7 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14061A988D3A00310EC7 /* libstdc++.6.dylib */; };
+		803F140B1A988D3A00310EC7 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14071A988D3A00310EC7 /* libxml2.2.dylib */; };
+		803F140C1A988D3A00310EC7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14081A988D3A00310EC7 /* libz.dylib */; };
+		803F142A1A988DAD00310EC7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F140D1A988DAC00310EC7 /* Accelerate.framework */; };
+		803F142B1A988DAD00310EC7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F140E1A988DAC00310EC7 /* AddressBook.framework */; };
+		803F142C1A988DAD00310EC7 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F140F1A988DAC00310EC7 /* AddressBookUI.framework */; };
+		803F142D1A988DAD00310EC7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14101A988DAC00310EC7 /* AssetsLibrary.framework */; };
+		803F142E1A988DAD00310EC7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14111A988DAC00310EC7 /* AudioToolbox.framework */; };
+		803F142F1A988DAD00310EC7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14121A988DAC00310EC7 /* AVFoundation.framework */; };
+		803F14301A988DAD00310EC7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14131A988DAC00310EC7 /* CFNetwork.framework */; };
+		803F14311A988DAD00310EC7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14141A988DAC00310EC7 /* CoreBluetooth.framework */; };
+		803F14321A988DAD00310EC7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14151A988DAC00310EC7 /* CoreFoundation.framework */; };
+		803F14331A988DAD00310EC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14161A988DAC00310EC7 /* CoreGraphics.framework */; };
+		803F14341A988DAD00310EC7 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14171A988DAC00310EC7 /* CoreImage.framework */; };
+		803F14351A988DAD00310EC7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14181A988DAC00310EC7 /* CoreLocation.framework */; };
+		803F14361A988DAD00310EC7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14191A988DAC00310EC7 /* CoreMedia.framework */; };
+		803F14371A988DAD00310EC7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141A1A988DAC00310EC7 /* CoreTelephony.framework */; };
+		803F14381A988DAD00310EC7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141B1A988DAC00310EC7 /* CoreText.framework */; };
+		803F14391A988DAD00310EC7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141C1A988DAC00310EC7 /* CoreVideo.framework */; };
+		803F143A1A988DAD00310EC7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141D1A988DAC00310EC7 /* EventKit.framework */; };
+		803F143B1A988DAD00310EC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141E1A988DAC00310EC7 /* Foundation.framework */; };
+		803F143C1A988DAD00310EC7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F141F1A988DAC00310EC7 /* ImageIO.framework */; };
+		803F143D1A988DAD00310EC7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14201A988DAC00310EC7 /* MapKit.framework */; };
+		803F143E1A988DAD00310EC7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14211A988DAC00310EC7 /* MediaPlayer.framework */; };
+		803F143F1A988DAD00310EC7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14221A988DAC00310EC7 /* MessageUI.framework */; };
+		803F14401A988DAD00310EC7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14231A988DAC00310EC7 /* MobileCoreServices.framework */; };
+		803F14411A988DAD00310EC7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14241A988DAC00310EC7 /* OpenGLES.framework */; };
+		803F14421A988DAD00310EC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14251A988DAC00310EC7 /* QuartzCore.framework */; };
+		803F14431A988DAD00310EC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14261A988DAC00310EC7 /* Security.framework */; };
+		803F14441A988DAD00310EC7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14271A988DAC00310EC7 /* StoreKit.framework */; };
+		803F14451A988DAD00310EC7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14281A988DAC00310EC7 /* SystemConfiguration.framework */; };
+		803F14461A988DAD00310EC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803F14291A988DAC00310EC7 /* UIKit.framework */; };
+		80D37AB41A99C0EB0079E870 /* 068_Microphone-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D37AB31A99C0EB0079E870 /* 068_Microphone-1.png */; };
+		80D37AB61A99C0F50079E870 /* 068_Microphone-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D37AB51A99C0F50079E870 /* 068_Microphone-1@2x.png */; };
+		80D37AB81A99C0FC0079E870 /* 068_Microphone-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D37AB71A99C0FC0079E870 /* 068_Microphone-1@3x.png */; };
+		80D37ABA1A99C13E0079E870 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D37AB91A99C13E0079E870 /* Images-2.xcassets */; };
+		80D37ABC1A99C1E10079E870 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D37ABB1A99C1E10079E870 /* Images.xcassets */; };
+		80D37ABE1A99C3AF0079E870 /* SoundMixerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D37ABD1A99C3AF0079E870 /* SoundMixerViewController.swift */; };
+		80E44D241A99F29A009639D9 /* MoxtraConversationResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80E44D1E1A99F29A009639D9 /* MoxtraConversationResources.bundle */; };
+		80E44D251A99F29A009639D9 /* MoxtraConversationSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E44D1F1A99F29A009639D9 /* MoxtraConversationSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		803F13B21A987FF000310EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 803F13941A987FF000310EC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 803F139B1A987FF000310EC7;
+			remoteInfo = "Beats Mixr";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80059E5B1A9A51520076E1CF /* MoxtraSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MoxtraSDKResources.bundle; path = "../Moxtra Test/MoxtraSDK.sdk/MoxtraSDKResources.bundle"; sourceTree = "<group>"; };
+		80059E5E1A9A51FF0076E1CF /* Moxtra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moxtra.h; sourceTree = "<group>"; };
+		80059E5F1A9A51FF0076E1CF /* MoxtraConversationResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MoxtraConversationResources.bundle; sourceTree = "<group>"; };
+		80059E601A9A51FF0076E1CF /* MoxtraConversationSDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = MoxtraConversationSDK; sourceTree = "<group>"; };
+		80059E611A9A51FF0076E1CF /* MXClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXClient.h; sourceTree = "<group>"; };
+		801AB4831A998477001F97B2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/parse-library-1.6.3/Bolts.framework"; sourceTree = "<group>"; };
+		801AB4841A998477001F97B2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1.6.3/Parse.framework"; sourceTree = "<group>"; };
+		801AB4851A998477001F97B2 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "../../../Downloads/parse-library-1.6.3/ParseCrashReporting.framework"; sourceTree = "<group>"; };
+		801AB4861A998477001F97B2 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../../Downloads/parse-library-1.6.3/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		801AB4871A998477001F97B2 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../../Downloads/parse-library-1.6.3/ParseUI.framework"; sourceTree = "<group>"; };
+		801AB48D1A9984D8001F97B2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		80208FF21A98E14600BB15AF /* AudioEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEdit.swift; sourceTree = "<group>"; };
+		80373CAF1A98D181001B9C5A /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		803F139C1A987FF000310EC7 /* Beats Mixr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beats Mixr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		803F13A01A987FF000310EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		803F13A11A987FF000310EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		803F13A31A987FF000310EC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		803F13A61A987FF000310EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		803F13AB1A987FF000310EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		803F13B11A987FF000310EC7 /* Beats MixrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beats MixrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		803F13B61A987FF000310EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		803F13B71A987FF000310EC7 /* Beats_MixrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beats_MixrTests.swift; sourceTree = "<group>"; };
+		803F14051A988D3A00310EC7 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		803F14061A988D3A00310EC7 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		803F14071A988D3A00310EC7 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		803F14081A988D3A00310EC7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		803F140D1A988DAC00310EC7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		803F140E1A988DAC00310EC7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		803F140F1A988DAC00310EC7 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		803F14101A988DAC00310EC7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		803F14111A988DAC00310EC7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		803F14121A988DAC00310EC7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		803F14131A988DAC00310EC7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		803F14141A988DAC00310EC7 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		803F14151A988DAC00310EC7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		803F14161A988DAC00310EC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		803F14171A988DAC00310EC7 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		803F14181A988DAC00310EC7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		803F14191A988DAC00310EC7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		803F141A1A988DAC00310EC7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		803F141B1A988DAC00310EC7 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		803F141C1A988DAC00310EC7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		803F141D1A988DAC00310EC7 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		803F141E1A988DAC00310EC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		803F141F1A988DAC00310EC7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		803F14201A988DAC00310EC7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		803F14211A988DAC00310EC7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		803F14221A988DAC00310EC7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		803F14231A988DAC00310EC7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		803F14241A988DAC00310EC7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		803F14251A988DAC00310EC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		803F14261A988DAC00310EC7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		803F14271A988DAC00310EC7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		803F14281A988DAC00310EC7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		803F14291A988DAC00310EC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80D37AB21A9988C10079E870 /* Beats Mixr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beats Mixr-Bridging-Header.h"; sourceTree = "<group>"; };
+		80D37AB31A99C0EB0079E870 /* 068_Microphone-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "068_Microphone-1.png"; path = "../../../../Downloads/ikonic-by-Radesign-free/PNG/Black/@1x/068_Microphone-1.png"; sourceTree = "<group>"; };
+		80D37AB51A99C0F50079E870 /* 068_Microphone-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "068_Microphone-1@2x.png"; path = "../../../../Downloads/ikonic-by-Radesign-free/PNG/Black/@2x/068_Microphone-1@2x.png"; sourceTree = "<group>"; };
+		80D37AB71A99C0FC0079E870 /* 068_Microphone-1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "068_Microphone-1@3x.png"; path = "../../../../Downloads/ikonic-by-Radesign-free/PNG/Black/@3x/068_Microphone-1@3x.png"; sourceTree = "<group>"; };
+		80D37AB91A99C13E0079E870 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		80D37ABB1A99C1E10079E870 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../Hello World Swift/Hello World Swift/Images.xcassets"; sourceTree = "<group>"; };
+		80D37ABD1A99C3AF0079E870 /* SoundMixerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundMixerViewController.swift; sourceTree = "<group>"; };
+		80E44D1D1A99F29A009639D9 /* Moxtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moxtra.h; sourceTree = "<group>"; };
+		80E44D1E1A99F29A009639D9 /* MoxtraConversationResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MoxtraConversationResources.bundle; sourceTree = "<group>"; };
+		80E44D1F1A99F29A009639D9 /* MoxtraConversationSDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = MoxtraConversationSDK; sourceTree = "<group>"; };
+		80E44D201A99F29A009639D9 /* MXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXClient.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		803F13991A987FF000310EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801AB4881A998477001F97B2 /* Bolts.framework in Frameworks */,
+				801AB4891A998477001F97B2 /* Parse.framework in Frameworks */,
+				801AB48A1A998477001F97B2 /* ParseCrashReporting.framework in Frameworks */,
+				801AB48B1A998477001F97B2 /* ParseFacebookUtils.framework in Frameworks */,
+				801AB48C1A998477001F97B2 /* ParseUI.framework in Frameworks */,
+				80373CB11A98D181001B9C5A /* CoreAudio.framework in Frameworks */,
+				803F142A1A988DAD00310EC7 /* Accelerate.framework in Frameworks */,
+				803F142B1A988DAD00310EC7 /* AddressBook.framework in Frameworks */,
+				803F142C1A988DAD00310EC7 /* AddressBookUI.framework in Frameworks */,
+				803F142D1A988DAD00310EC7 /* AssetsLibrary.framework in Frameworks */,
+				80E44D251A99F29A009639D9 /* MoxtraConversationSDK in Frameworks */,
+				803F142E1A988DAD00310EC7 /* AudioToolbox.framework in Frameworks */,
+				803F142F1A988DAD00310EC7 /* AVFoundation.framework in Frameworks */,
+				803F14301A988DAD00310EC7 /* CFNetwork.framework in Frameworks */,
+				803F14311A988DAD00310EC7 /* CoreBluetooth.framework in Frameworks */,
+				803F14321A988DAD00310EC7 /* CoreFoundation.framework in Frameworks */,
+				803F14331A988DAD00310EC7 /* CoreGraphics.framework in Frameworks */,
+				803F14341A988DAD00310EC7 /* CoreImage.framework in Frameworks */,
+				803F14351A988DAD00310EC7 /* CoreLocation.framework in Frameworks */,
+				803F14361A988DAD00310EC7 /* CoreMedia.framework in Frameworks */,
+				803F14371A988DAD00310EC7 /* CoreTelephony.framework in Frameworks */,
+				803F14381A988DAD00310EC7 /* CoreText.framework in Frameworks */,
+				803F14391A988DAD00310EC7 /* CoreVideo.framework in Frameworks */,
+				803F143A1A988DAD00310EC7 /* EventKit.framework in Frameworks */,
+				803F143B1A988DAD00310EC7 /* Foundation.framework in Frameworks */,
+				803F143C1A988DAD00310EC7 /* ImageIO.framework in Frameworks */,
+				803F143D1A988DAD00310EC7 /* MapKit.framework in Frameworks */,
+				803F143E1A988DAD00310EC7 /* MediaPlayer.framework in Frameworks */,
+				803F143F1A988DAD00310EC7 /* MessageUI.framework in Frameworks */,
+				803F14401A988DAD00310EC7 /* MobileCoreServices.framework in Frameworks */,
+				803F14411A988DAD00310EC7 /* OpenGLES.framework in Frameworks */,
+				803F14421A988DAD00310EC7 /* QuartzCore.framework in Frameworks */,
+				803F14431A988DAD00310EC7 /* Security.framework in Frameworks */,
+				803F14441A988DAD00310EC7 /* StoreKit.framework in Frameworks */,
+				803F14451A988DAD00310EC7 /* SystemConfiguration.framework in Frameworks */,
+				803F14461A988DAD00310EC7 /* UIKit.framework in Frameworks */,
+				803F14091A988D3A00310EC7 /* libc++.dylib in Frameworks */,
+				803F140A1A988D3A00310EC7 /* libstdc++.6.dylib in Frameworks */,
+				803F140B1A988D3A00310EC7 /* libxml2.2.dylib in Frameworks */,
+				803F140C1A988D3A00310EC7 /* libz.dylib in Frameworks */,
+				801AB48E1A9984D8001F97B2 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803F13AE1A987FF000310EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80059E621A9A522F0076E1CF /* MoxtraConversationResources.bundle in Frameworks */,
+				80059E5C1A9A51530076E1CF /* MoxtraSDKResources.bundle in Frameworks */,
+				80059E561A9A512E0076E1CF /* Bolts.framework in Frameworks */,
+				80059E571A9A512E0076E1CF /* Parse.framework in Frameworks */,
+				80059E581A9A512E0076E1CF /* ParseCrashReporting.framework in Frameworks */,
+				80059E591A9A512E0076E1CF /* ParseFacebookUtils.framework in Frameworks */,
+				80059E5A1A9A512E0076E1CF /* ParseUI.framework in Frameworks */,
+				80059E521A9A51120076E1CF /* libc++.dylib in Frameworks */,
+				80059E531A9A51120076E1CF /* libstdc++.6.dylib in Frameworks */,
+				80059E541A9A51120076E1CF /* libxml2.2.dylib in Frameworks */,
+				80059E551A9A51120076E1CF /* libz.dylib in Frameworks */,
+				80059E351A9A50DC0076E1CF /* Accelerate.framework in Frameworks */,
+				80059E361A9A50DC0076E1CF /* AddressBook.framework in Frameworks */,
+				80059E371A9A50DC0076E1CF /* AddressBookUI.framework in Frameworks */,
+				80059E381A9A50DC0076E1CF /* AssetsLibrary.framework in Frameworks */,
+				80059E391A9A50DC0076E1CF /* AudioToolbox.framework in Frameworks */,
+				80059E3A1A9A50DC0076E1CF /* AVFoundation.framework in Frameworks */,
+				80059E3B1A9A50DC0076E1CF /* CFNetwork.framework in Frameworks */,
+				80059E3C1A9A50DC0076E1CF /* CoreAudio.framework in Frameworks */,
+				80059E3D1A9A50DC0076E1CF /* CoreBluetooth.framework in Frameworks */,
+				80059E3E1A9A50DC0076E1CF /* CoreFoundation.framework in Frameworks */,
+				80059E3F1A9A50DC0076E1CF /* CoreGraphics.framework in Frameworks */,
+				80059E401A9A50DC0076E1CF /* CoreImage.framework in Frameworks */,
+				80059E411A9A50DC0076E1CF /* CoreLocation.framework in Frameworks */,
+				80059E421A9A50DC0076E1CF /* CoreMedia.framework in Frameworks */,
+				80059E431A9A50DC0076E1CF /* CoreTelephony.framework in Frameworks */,
+				80059E441A9A50DC0076E1CF /* CoreText.framework in Frameworks */,
+				80059E451A9A50DC0076E1CF /* CoreVideo.framework in Frameworks */,
+				80059E461A9A50DC0076E1CF /* EventKit.framework in Frameworks */,
+				80059E471A9A50DC0076E1CF /* Foundation.framework in Frameworks */,
+				80059E481A9A50DC0076E1CF /* ImageIO.framework in Frameworks */,
+				80059E491A9A50DC0076E1CF /* MapKit.framework in Frameworks */,
+				80059E4A1A9A50DC0076E1CF /* MediaPlayer.framework in Frameworks */,
+				80059E631A9A547B0076E1CF /* MessageUI.framework in Frameworks */,
+				80059E4B1A9A50DC0076E1CF /* MobileCoreServices.framework in Frameworks */,
+				80059E4C1A9A50DC0076E1CF /* OpenGLES.framework in Frameworks */,
+				80059E4D1A9A50DC0076E1CF /* QuartzCore.framework in Frameworks */,
+				80059E4E1A9A50DC0076E1CF /* Security.framework in Frameworks */,
+				80059E4F1A9A50DC0076E1CF /* StoreKit.framework in Frameworks */,
+				80059E501A9A50DC0076E1CF /* SystemConfiguration.framework in Frameworks */,
+				80059E511A9A50DC0076E1CF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80059E5D1A9A51FF0076E1CF /* MoxtraConversationSDK.sdk */ = {
+			isa = PBXGroup;
+			children = (
+				80059E5E1A9A51FF0076E1CF /* Moxtra.h */,
+				80059E5F1A9A51FF0076E1CF /* MoxtraConversationResources.bundle */,
+				80059E601A9A51FF0076E1CF /* MoxtraConversationSDK */,
+				80059E611A9A51FF0076E1CF /* MXClient.h */,
+			);
+			name = MoxtraConversationSDK.sdk;
+			path = "../../../Downloads/Hack Stuff/Moxtra_Chat_iOS_V.123.150119/MoxtraConversationSDK.sdk";
+			sourceTree = "<group>";
+		};
+		80373CAD1A98AA0E001B9C5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80059E5D1A9A51FF0076E1CF /* MoxtraConversationSDK.sdk */,
+				80059E5B1A9A51520076E1CF /* MoxtraSDKResources.bundle */,
+				801AB48D1A9984D8001F97B2 /* libsqlite3.dylib */,
+				801AB4831A998477001F97B2 /* Bolts.framework */,
+				801AB4841A998477001F97B2 /* Parse.framework */,
+				801AB4851A998477001F97B2 /* ParseCrashReporting.framework */,
+				801AB4861A998477001F97B2 /* ParseFacebookUtils.framework */,
+				801AB4871A998477001F97B2 /* ParseUI.framework */,
+				80373CAF1A98D181001B9C5A /* CoreAudio.framework */,
+				803F140D1A988DAC00310EC7 /* Accelerate.framework */,
+				803F140E1A988DAC00310EC7 /* AddressBook.framework */,
+				803F140F1A988DAC00310EC7 /* AddressBookUI.framework */,
+				803F14101A988DAC00310EC7 /* AssetsLibrary.framework */,
+				803F14111A988DAC00310EC7 /* AudioToolbox.framework */,
+				803F14121A988DAC00310EC7 /* AVFoundation.framework */,
+				803F14131A988DAC00310EC7 /* CFNetwork.framework */,
+				803F14141A988DAC00310EC7 /* CoreBluetooth.framework */,
+				803F14151A988DAC00310EC7 /* CoreFoundation.framework */,
+				803F14161A988DAC00310EC7 /* CoreGraphics.framework */,
+				803F14171A988DAC00310EC7 /* CoreImage.framework */,
+				803F14181A988DAC00310EC7 /* CoreLocation.framework */,
+				803F14191A988DAC00310EC7 /* CoreMedia.framework */,
+				803F141A1A988DAC00310EC7 /* CoreTelephony.framework */,
+				803F141B1A988DAC00310EC7 /* CoreText.framework */,
+				803F141C1A988DAC00310EC7 /* CoreVideo.framework */,
+				803F141D1A988DAC00310EC7 /* EventKit.framework */,
+				803F141E1A988DAC00310EC7 /* Foundation.framework */,
+				803F141F1A988DAC00310EC7 /* ImageIO.framework */,
+				803F14201A988DAC00310EC7 /* MapKit.framework */,
+				803F14211A988DAC00310EC7 /* MediaPlayer.framework */,
+				803F14221A988DAC00310EC7 /* MessageUI.framework */,
+				803F14231A988DAC00310EC7 /* MobileCoreServices.framework */,
+				803F14241A988DAC00310EC7 /* OpenGLES.framework */,
+				803F14251A988DAC00310EC7 /* QuartzCore.framework */,
+				803F14261A988DAC00310EC7 /* Security.framework */,
+				803F14271A988DAC00310EC7 /* StoreKit.framework */,
+				803F14281A988DAC00310EC7 /* SystemConfiguration.framework */,
+				803F14291A988DAC00310EC7 /* UIKit.framework */,
+				803F14051A988D3A00310EC7 /* libc++.dylib */,
+				803F14061A988D3A00310EC7 /* libstdc++.6.dylib */,
+				803F14071A988D3A00310EC7 /* libxml2.2.dylib */,
+				803F14081A988D3A00310EC7 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		803F13931A987FF000310EC7 = {
+			isa = PBXGroup;
+			children = (
+				80373CAD1A98AA0E001B9C5A /* Frameworks */,
+				803F139E1A987FF000310EC7 /* Beats Mixr */,
+				803F13B41A987FF000310EC7 /* Beats MixrTests */,
+				803F139D1A987FF000310EC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		803F139D1A987FF000310EC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				803F139C1A987FF000310EC7 /* Beats Mixr.app */,
+				803F13B11A987FF000310EC7 /* Beats MixrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		803F139E1A987FF000310EC7 /* Beats Mixr */ = {
+			isa = PBXGroup;
+			children = (
+				80E44D1C1A99F29A009639D9 /* MoxtraConversationSDK.sdk */,
+				80208FF21A98E14600BB15AF /* AudioEdit.swift */,
+				80D37AB21A9988C10079E870 /* Beats Mixr-Bridging-Header.h */,
+				803F13A11A987FF000310EC7 /* AppDelegate.swift */,
+				803F13A31A987FF000310EC7 /* ViewController.swift */,
+				803F13A51A987FF000310EC7 /* Main.storyboard */,
+				80D37ABB1A99C1E10079E870 /* Images.xcassets */,
+				803F13AA1A987FF000310EC7 /* LaunchScreen.xib */,
+				80D37ABD1A99C3AF0079E870 /* SoundMixerViewController.swift */,
+				803F139F1A987FF000310EC7 /* Supporting Files */,
+				80D37AB91A99C13E0079E870 /* Images-2.xcassets */,
+			);
+			path = "Beats Mixr";
+			sourceTree = "<group>";
+		};
+		803F139F1A987FF000310EC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				803F13A01A987FF000310EC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		803F13B41A987FF000310EC7 /* Beats MixrTests */ = {
+			isa = PBXGroup;
+			children = (
+				803F13B71A987FF000310EC7 /* Beats_MixrTests.swift */,
+				803F13B51A987FF000310EC7 /* Supporting Files */,
+			);
+			path = "Beats MixrTests";
+			sourceTree = "<group>";
+		};
+		803F13B51A987FF000310EC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D37AB31A99C0EB0079E870 /* 068_Microphone-1.png */,
+				80D37AB51A99C0F50079E870 /* 068_Microphone-1@2x.png */,
+				80D37AB71A99C0FC0079E870 /* 068_Microphone-1@3x.png */,
+				803F13B61A987FF000310EC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80E44D1C1A99F29A009639D9 /* MoxtraConversationSDK.sdk */ = {
+			isa = PBXGroup;
+			children = (
+				80E44D1D1A99F29A009639D9 /* Moxtra.h */,
+				80E44D1E1A99F29A009639D9 /* MoxtraConversationResources.bundle */,
+				80E44D1F1A99F29A009639D9 /* MoxtraConversationSDK */,
+				80E44D201A99F29A009639D9 /* MXClient.h */,
+			);
+			name = MoxtraConversationSDK.sdk;
+			path = "../../../../Downloads/Hack Stuff/Moxtra_Chat_iOS_V.123.150119/MoxtraConversationSDK.sdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		803F139B1A987FF000310EC7 /* Beats Mixr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803F13BB1A987FF000310EC7 /* Build configuration list for PBXNativeTarget "Beats Mixr" */;
+			buildPhases = (
+				803F13981A987FF000310EC7 /* Sources */,
+				803F13991A987FF000310EC7 /* Frameworks */,
+				803F139A1A987FF000310EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beats Mixr";
+			productName = "Beats Mixr";
+			productReference = 803F139C1A987FF000310EC7 /* Beats Mixr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		803F13B01A987FF000310EC7 /* Beats MixrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803F13BE1A987FF000310EC7 /* Build configuration list for PBXNativeTarget "Beats MixrTests" */;
+			buildPhases = (
+				803F13AD1A987FF000310EC7 /* Sources */,
+				803F13AE1A987FF000310EC7 /* Frameworks */,
+				803F13AF1A987FF000310EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				803F13B31A987FF000310EC7 /* PBXTargetDependency */,
+			);
+			name = "Beats MixrTests";
+			productName = "Beats MixrTests";
+			productReference = 803F13B11A987FF000310EC7 /* Beats MixrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		803F13941A987FF000310EC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Shreyas Kalyan";
+				TargetAttributes = {
+					803F139B1A987FF000310EC7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2S3D8J8M3T;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					803F13B01A987FF000310EC7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 803F139B1A987FF000310EC7;
+					};
+				};
+			};
+			buildConfigurationList = 803F13971A987FF000310EC7 /* Build configuration list for PBXProject "Beats Mixr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 803F13931A987FF000310EC7;
+			productRefGroup = 803F139D1A987FF000310EC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				803F139B1A987FF000310EC7 /* Beats Mixr */,
+				803F13B01A987FF000310EC7 /* Beats MixrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		803F139A1A987FF000310EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803F13A71A987FF000310EC7 /* Main.storyboard in Resources */,
+				80E44D241A99F29A009639D9 /* MoxtraConversationResources.bundle in Resources */,
+				80D37ABC1A99C1E10079E870 /* Images.xcassets in Resources */,
+				803F13AC1A987FF000310EC7 /* LaunchScreen.xib in Resources */,
+				80D37ABA1A99C13E0079E870 /* Images-2.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803F13AF1A987FF000310EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D37AB41A99C0EB0079E870 /* 068_Microphone-1.png in Resources */,
+				80D37AB61A99C0F50079E870 /* 068_Microphone-1@2x.png in Resources */,
+				80D37AB81A99C0FC0079E870 /* 068_Microphone-1@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		803F13981A987FF000310EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D37ABE1A99C3AF0079E870 /* SoundMixerViewController.swift in Sources */,
+				803F13A41A987FF000310EC7 /* ViewController.swift in Sources */,
+				80208FF31A98E14600BB15AF /* AudioEdit.swift in Sources */,
+				803F13A21A987FF000310EC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803F13AD1A987FF000310EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803F13B81A987FF000310EC7 /* Beats_MixrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		803F13B31A987FF000310EC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 803F139B1A987FF000310EC7 /* Beats Mixr */;
+			targetProxy = 803F13B21A987FF000310EC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		803F13A51A987FF000310EC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				803F13A61A987FF000310EC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		803F13AA1A987FF000310EC7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				803F13AB1A987FF000310EC7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		803F13B91A987FF000310EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		803F13BA1A987FF000310EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		803F13BC1A987FF000310EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/shreyaskal/Desktop,
+					"/Users/shreyaskal/Downloads/azuresdk-iOS-v1.2.4",
+					"/Users/shreyaskal/Downloads/parse-library-1.6.3",
+				);
+				INFOPLIST_FILE = "Beats Mixr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Beats Mixr/Beats Mixr-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		803F13BD1A987FF000310EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/shreyaskal/Desktop,
+					"/Users/shreyaskal/Downloads/azuresdk-iOS-v1.2.4",
+					"/Users/shreyaskal/Downloads/parse-library-1.6.3",
+				);
+				INFOPLIST_FILE = "Beats Mixr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Beats Mixr/Beats Mixr-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		803F13BF1A987FF000310EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"/Users/shreyaskal/Downloads/parse-library-1.6.3",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Beats MixrTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beats Mixr.app/Beats Mixr";
+			};
+			name = Debug;
+		};
+		803F13C01A987FF000310EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"/Users/shreyaskal/Downloads/parse-library-1.6.3",
+				);
+				INFOPLIST_FILE = "Beats MixrTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beats Mixr.app/Beats Mixr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		803F13971A987FF000310EC7 /* Build configuration list for PBXProject "Beats Mixr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803F13B91A987FF000310EC7 /* Debug */,
+				803F13BA1A987FF000310EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		803F13BB1A987FF000310EC7 /* Build configuration list for PBXNativeTarget "Beats Mixr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803F13BC1A987FF000310EC7 /* Debug */,
+				803F13BD1A987FF000310EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		803F13BE1A987FF000310EC7 /* Build configuration list for PBXNativeTarget "Beats MixrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803F13BF1A987FF000310EC7 /* Debug */,
+				803F13C01A987FF000310EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 803F13941A987FF000310EC7 /* Project object */;
+}
